@@ -1,0 +1,20 @@
+@import url("node_modules/bootstrap/dist/css/bootstrap.min.css");
+
+button.calcbtn {
+  margin: 2px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.5em;
+}
+#input-screen {
+  border: 1px solid #999;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 1.5em;
+}
+
+h1,
+p {
+  text-align: center;
+}

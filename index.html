@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+  <body class="container-fluid">
+    <h1>Pro Calculator</h1>
+    <p>
+      Welcome to Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Consectetur dicta saepe dolores incidunt mollitia recusandae fugiat.
+    </p>
+    <div id="calc-body" class="container" style="max-width: 400px">
+      <div id="calc-screen" class="row mb-1">
+        <input
+          type="text"
+          name="input-screen"
+          id="input-screen"
+          class="col"
+          placeholder="-"
+        />
+      </div>
+      <div id="calc-btns">
+        <div class="row">
+          <button id="btn_CE" class="calcbtn col">CE</button>
+        </div>
+        <div class="row">
+          <button id="btn_7" class="calcbtn col">7</button>
+          <button id="btn_8" class="calcbtn col">8</button>
+          <button id="btn_9" class="calcbtn col">9</button>
+          <button id="btn_-" class="calcbtn col">-</button>
+        </div>
+        <div class="row">
+          <button id="btn_4" class="calcbtn col">4</button>
+          <button id="btn_5" class="calcbtn col">5</button>
+          <button id="btn_6" class="calcbtn col">6</button>
+          <button id="btn_+" class="calcbtn col">+</button>
+        </div>
+        <div class="row">
+          <button id="btn_1" class="calcbtn col">1</button>
+          <button id="btn_2" class="calcbtn col">2</button>
+          <button id="btn_3" class="calcbtn col">3</button>
+          <button id="btn_*" class="calcbtn col">*</button>
+        </div>
+        <div class="row">
+          <button id="btn_." class="calcbtn col">.</button>
+          <button id="btn_0" class="calcbtn col">0</button>
+          <button id="btn_=" class="calcbtn col">=</button>
+          <button id="btn_/" class="calcbtn col">/</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
